@@ -16,9 +16,6 @@
   "files": [
     "dist/*"
   ],
-  "engines": {
-    "node": ">=8"
-  },
   "author": "Joern Buchwald",
   "license": "MIT",
   "scripts": {
