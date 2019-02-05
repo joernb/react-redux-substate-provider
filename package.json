@@ -1,0 +1,36 @@
+{
+  "name": "react-redux-substate-provider",
+  "private": false,
+  "version": "0.0.0",
+  "description": "A React Context Provider that makes connected components access a substate",
+  "keywords": [
+    "react",
+    "redux",
+    "react-redux",
+    "substate",
+    "provider",
+    "context"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "author": "Joern Buchwald",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "peerDependencies": {
+    "react-redux": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.1",
+    "@types/react-redux": "^7.0.1",
+    "react": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {}
+}
