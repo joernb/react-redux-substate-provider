@@ -8,6 +8,11 @@ This library contains a React Context Provider, that makes nested components acc
 
 ## Usage
 
+Install:
+```sh
+npm install react-redux-substate-provider
+```
+
 Wrap a component with the `SubStateProvider` and provide a selector function, which selects the substate:
 ```jsx
 import { SubStateProvider } from "react-redux-substate-provider";
