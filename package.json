@@ -1,7 +1,7 @@
 {
   "name": "react-redux-substate-provider",
   "private": false,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A React Context Provider that makes connected components access a substate",
   "keywords": [
     "react",
