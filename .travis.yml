@@ -5,7 +5,9 @@ script:
 - npm run build
 deploy:
   provider: npm
+  skip_cleanup: true
   on:
+    branch: master
     tags: true
     repo: joernb/react-redux-substate-provider
   email:
