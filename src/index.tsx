@@ -1,8 +1,8 @@
 import * as React from "react";
-import { Provider, ReactReduxContext } from 'react-redux';
+import { Provider, ReactReduxContext } from "react-redux";
 import { Store } from "redux";
 
-type SubStateSelector = <State, SubState>(state: State) => SubState;
+type SubStateSelector = (state: any) => any;
 
 const subStore = (store: Store, subStateSelector: SubStateSelector): Store =>
   ({
